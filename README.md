@@ -1,6 +1,6 @@
 # digitalStickers
 
-![digitalStickers logo](images/icons/digitalstickers.png)
+<img src="images/icons/digitalstickers.png" alt="digitalStickers logo" height="400" width="400" />
 
 digitalStickers places digital stickers on your screen. Digital stickers could be images, videos, or whatever you want it to be. Currently a working proof-of-concept.
 
