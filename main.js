@@ -10,27 +10,28 @@ let intervalId;
 const createWindow = () => {
   // Create the browser window.
   win = new BrowserWindow({
-    width: 400,
-    height: 200,
+    icon: "images/icons/digitalstickers.png",
+    width: 200,
+    height: 250,
     titleBarStyle: "customButtonsOnHover", // removes border & adds button
     //titleBarOverlay: true,
     transparent: true, // makes the window transparent
     alwaysOnTop: true,
-    type: "panel",
+    //type: "panel",
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
     },
   });
 
-  app.dock.show();
+  //app.dock.show();
   win.setResizable(false);
-  win.setVisibleOnAllWorkspaces(true, { visibleOnFullScreen: true });
+  //win.setVisibleOnAllWorkspaces(true, { visibleOnFullScreen: true });
 
   //win.setHasShadow(false);
-  
+
   // and load the index.html of the app.
   win.loadFile("index.html");
-  
+
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
 
