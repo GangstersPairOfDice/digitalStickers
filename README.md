@@ -1,6 +1,6 @@
 # digitalStickers
 
-<div style="text-alight:center;">
+<div style="text-alight:center">
   <img src="images/icons/digitalstickers.png" alt="digitalStickers logo" height="200" width="200" />
 </div>
 
