@@ -12,22 +12,25 @@ const createWindow = () => {
   win = new BrowserWindow({
     width: 400,
     height: 200,
-    focusable: false,
     titleBarStyle: "customButtonsOnHover", // removes border & adds button
     //titleBarOverlay: true,
     transparent: true, // makes the window transparent
     alwaysOnTop: true,
+    type: "panel",
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
     },
   });
 
-  // click through window
-  //win.setIgnoreMouseEvents(true);
+  app.dock.show();
+  win.setResizable(false);
+  win.setVisibleOnAllWorkspaces(true, { visibleOnFullScreen: true });
 
+  //win.setHasShadow(false);
+  
   // and load the index.html of the app.
   win.loadFile("index.html");
-
+  
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
 
