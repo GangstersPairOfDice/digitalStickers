@@ -4,8 +4,6 @@
   <img src="images/stickers/digitalStickers.gif" alt="digitalStickers logo" />
 </p>
 
-digitalStickers places digital stickers on your screen. Digital stickers could be images, videos, or whatever you want it to be. Currently a working proof-of-concept.
-
 Features
 ---
  - Places a preset sticker on your screen
