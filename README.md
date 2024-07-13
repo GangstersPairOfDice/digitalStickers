@@ -1,7 +1,7 @@
 # digitalStickers
 
 <p align="center">
-  <img src="images/icons/digitalstickers.png" alt="digitalStickers logo" height="200" width="200" />
+  <img src="images/stickers/digitalStickers.gif" alt="digitalStickers logo" />
 </p>
 
 digitalStickers places digital stickers on your screen. Digital stickers could be images, videos, or whatever you want it to be. Currently a working proof-of-concept.
