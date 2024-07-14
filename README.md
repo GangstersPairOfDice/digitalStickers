@@ -25,6 +25,8 @@ This way you can customize the sticker which appears, by editing `index.html`
 
 In `main.js` you can toggle some experimental features, like having stickers appear even in fullscreen mode. To enable this, uncomment the `type: panel` option under the BrowserWindows creation. Here you can also remove the shadows from the sticker, etc.
 
+FYI: I have only tested this on x64 macOS. Windows and Linux should work fine, but there maybe some compatability issues and feature losses.
+
 Planned Features
 ---
  - [ ] Adding your own sticker easily
