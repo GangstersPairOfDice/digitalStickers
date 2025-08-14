@@ -1,6 +1,6 @@
 {
   "name": "digitalStickers",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "FOSS software for placing digital stickers on your screen",
   "main": "main.js",
   "repository": "git@github.com:GangstersPairOfDice/digitalStickers.git",
