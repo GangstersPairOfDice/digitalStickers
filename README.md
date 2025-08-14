@@ -10,6 +10,13 @@ Features
  - You can move this sticker by dragging it
  - The sticker is always on top of everything on the screen by design
 
+New update (0.1.1):
+---
+ - Added two new renderer files, ```hue.js``` and ```test2.js```
+ - These can be enabled in the file ```index.html```
+ - ```hue.js``` changes the stickers hue over time
+ - ```test2.js``` turns the sticker into a holographic sticker, raindbow color shifts + gloss lighting + sparkles
+
 Building
 ---
 Have not tested myself yet, but you should be able to clone this repo, cd into into the repos directory, then run
@@ -36,4 +43,4 @@ Planned Features
 
 Technologies Used
 ---
-Electron, Chromium, NodeJS, Javascript, HTML, CSS
+Electron, Chromium, NodeJS, Javascript, HTML, CSS, LLM's
