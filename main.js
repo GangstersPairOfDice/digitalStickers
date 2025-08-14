@@ -11,8 +11,6 @@ const createWindow = () => {
   // Create the browser window.
   win = new BrowserWindow({
     icon: "images/icons/digitalstickers.png",
-    width: 200,
-    height: 250,
     titleBarStyle: "customButtonsOnHover", // removes border & adds button
     //titleBarOverlay: true,
     transparent: true, // makes the window transparent
@@ -84,7 +82,7 @@ const createWindow = () => {
       //console.log("setIgnoreMouseEvents", false);
     } else {
       // set ignore mouse events by alpha.
-      win.setIgnoreMouseEvents(!buffer[3]);
+      win.setIgnoreMouseEvents(buffer[3] < 10);
       //console.log("setIgnoreMouseEvents", !buffer[3]);
     }
   };
